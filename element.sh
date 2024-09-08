@@ -14,6 +14,9 @@ echo "Hello World"  # Just a test comment
 # Adding a comment to trigger a commit
 echo "Hello World"  # Just a test comment
 
+# Adding a comment to trigger a commit
+echo "Hello World"  # Just a test comment
+
 if [[ -z $1 ]]
 then
   echo "Please provide an element as an argument."
