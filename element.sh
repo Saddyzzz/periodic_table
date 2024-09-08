@@ -1,4 +1,13 @@
+
+#!/bin/bash
+
+
+# Adding a comment to trigger a commit
 PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
+
+# Adding a comment to trigger a commit
+echo "Hello World"  # Just a test comment
+
 
 if [[ -z $1 ]]
 then
